@@ -18,5 +18,7 @@ public class Main {
         System.out.println("Общая сумма товаров в корзине без скидки - " + cart.productsWithoutDiscount());
         System.out.println("Общая сумма товаров в корзине со скидкой - " + cart.discountedProducts());
         System.out.println("Сумма всех вегетарианских продуктов без скидки " + cart.veganProductsWithoutDiscount());
+
+
     }
 }
